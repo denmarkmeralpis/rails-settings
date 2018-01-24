@@ -1,6 +1,6 @@
 module RailsSettings
   class SettingObject < ActiveRecord::Base
-    self.table_name = 'settings'
+    self.table_name = 'obj_settings'
 
     belongs_to :target, :polymorphic => true
 
